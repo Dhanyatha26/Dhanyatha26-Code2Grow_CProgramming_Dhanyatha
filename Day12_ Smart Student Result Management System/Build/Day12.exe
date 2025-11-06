@@ -1,1 +1,44 @@
-
+Smart Student Result Management     
+Enter number of students: 3
+--- Student 1 ---
+Enter marks for Subject 1: 85
+Enter marks for Subject 2: 78
+Enter marks for Subject 3: 92
+Grade: A
+--- Student 2 ---
+Enter marks for Subject 1: 67
+Enter marks for Subject 2: 73
+Enter marks for Subject 3: 80
+Grade: B
+--- Student 3 ---
+Enter marks for Subject 1: 45
+Enter marks for Subject 2: 60
+Enter marks for Subject 3: 55
+Grade: D
+========= Menu =========
+1. View All Results
+2. View Class Summary
+3. Exit
+Enter your choice: 1
+--- Result Sheet ---
+Student 1: Avg = 85.0
+Student 2: Avg = 73.3
+Student 3: Avg = 53.3
+========= Menu =========
+1. View All Results
+2. View Class Summary
+3. Exit
+Enter your choice: 2
+--- Class Summary ---
+Total Students: 3
+Passed: 3
+Failed: 0
+Class Average: 70.6
+Highest Average: 85.0
+Lowest Average: 53.3
+========= Menu =========
+1. View All Results
+2. View Class Summary
+3. Exit
+Enter your choice: 3
+Thank you! Exiting system...
