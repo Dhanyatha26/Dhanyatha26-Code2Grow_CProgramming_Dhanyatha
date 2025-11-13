@@ -37,7 +37,7 @@ int main() {
                 printf("Product ID: ");
                 scanf("%d", &productID[i]);
                 printf("Product Name: ");
-                scanf(" %[^\n]", productName[i]); // allows spaces
+                scanf(" %[^\n]", productName[i]);
                 printf("Quantity in stock: ");
                 scanf("%d", &quantity[i]);
                 printf("Price per item: ");
