@@ -30,7 +30,6 @@ int main() {
 
     int laneViolationCount = countLaneViolations(vehicleID, lane, n, severity);
 
-    // Traffic Density
     for (int i = 0; i < n; i++) {
         laneCount[lane[i] - 1]++;
     }
@@ -38,7 +37,6 @@ int main() {
     int busy = busiestLane(laneCount);
     int least = leastBusyLane(laneCount);
 
-    // Identify Violations for Report
     for (int i = 0; i < n; i++) {
         if (speed[i] > 80) speedViol[i] = 1;
         if (severity[i] != 0) laneViol[i] = 1;
